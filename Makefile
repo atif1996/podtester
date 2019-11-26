@@ -1,5 +1,5 @@
 .Phony: all, binary, lint, download
-version := 1.0.0
+version := 1.0.1
 
 binary: download lint
 	@go build .
